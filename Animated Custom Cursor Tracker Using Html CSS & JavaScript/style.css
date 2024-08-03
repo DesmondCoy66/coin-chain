@@ -1,0 +1,24 @@
+body {
+	background-image: url(img/islandBg.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 90vh;
+	font-family: 'Carter One', cursive;
+	color: white;
+	text-align: center;
+}
+
+.cursorTitle {
+	font-size: 50px;
+	background-image: linear-gradient( #ffeb3b 25%, #ff9800 100% );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.CustomTracker {
+	position: fixed;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
